@@ -1,0 +1,14 @@
+# Intel WiFi firmware blobs
+# Download from: https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/tree/
+# Run ./fetch.sh to download and verify all files.
+#
+# Format: filename  sha256  url
+#
+# AX200
+iwlwifi-cc-a0-77.ucode  PENDING  https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/iwlwifi-cc-a0-77.ucode
+
+# AX210/AX211
+iwlwifi-ty-a0-gf-a0-89.ucode  PENDING  https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/iwlwifi-ty-a0-gf-a0-89.ucode
+
+# BE200
+iwlwifi-gl-c0-fm-c0-89.ucode  PENDING  https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/plain/iwlwifi-gl-c0-fm-c0-89.ucode

@@ -1,0 +1,22 @@
+zig-out/
+zig-cache/
+.zig-cache/
+*.o
+*.a
+*.so
+*.bin
+
+# Firmware blobs (not committed — download from linux-firmware)
+firmware/**/*.bin
+firmware/**/*.ucode
+
+# Build artifacts
+fornax-disk.img
+
+# IDE
+.idea/
+.DS_Store
+
+# Tool state
+.serena/
+.claude/

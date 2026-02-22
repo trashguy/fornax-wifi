@@ -1,0 +1,12 @@
+[package]
+name = "fornax-wifi"
+version = "0.1.0"
+description = "WiFi drivers and 802.11 stack for Fornax OS"
+license = "MIT"
+
+[dependencies]
+fornax = { path = "../Fornax" }
+
+[install]
+drivers = ["iwlwifi"]
+firmware = "firmware/"

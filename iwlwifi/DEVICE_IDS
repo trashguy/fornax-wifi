@@ -1,0 +1,11 @@
+# Intel iwlwifi — PCI vendor:device pairs
+# Reference: Linux drivers/net/wireless/intel/iwlwifi/pcie/drv.c
+8086 2725  AX210/AX211/AX1675 (Typhoon Peak)
+8086 2726  AX210 (Typhoon Peak)
+8086 51F0  AX211 (Alder Lake)
+8086 51F1  AX211 (Alder Lake)
+8086 54F0  AX211 (Raptor Lake)
+8086 7AF0  AX200 (Cyclone Peak)
+8086 272B  AX1690i (Thunder Peak)
+8086 A840  BE200 (Boulton Peak)
+8086 7E40  BE202 (Meteor Lake)
